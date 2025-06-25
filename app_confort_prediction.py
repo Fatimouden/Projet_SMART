@@ -214,20 +214,7 @@ temp_pred = models['extra_trees'].predict(input_et)[0]
 st.subheader("🌡️ Température intérieure recommandée")
 st.metric("Consigne (°C)", f"{temp_pred:.2f} °C")
 
-# --- Résultats
-st.subheader("🔌 Consommation énergétique estimée")
-st.metric("Estimation (kWh)", f"{conso_estimee:.2f} kWh")
 
-input_df = pd.DataFrame([{
-    'temp_ext': temp_ext,
-    'ensoleillement': ensoleillement,
-    'jour': jour,
-    'conso_energie': conso_estimee
-}])
-temp_pred = models['extra_trees'].predict(input_df)[0]
-
-st.subheader("🌡️ Température intérieure recommandée")
-st.metric("Consigne (°C)", f"{temp_pred:.2f} °C")
 # --- Visualisation complète
 with st.expander("🔎 🧾 📈 Données par niveau de consommation"):
     st.write("🔋 Faible consommation")
