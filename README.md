@@ -1,11 +1,11 @@
-# 🏡 Projet SMART - Assistant Confort et Consommation Énergétique
+#  Projet SMART - Assistant Confort et Consommation Énergétique
 
 Une application web intelligente pour prédire la consommation énergétique et recommander des températures intérieures optimales basées sur les conditions météorologiques et les préférences de confort.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://projetsmart.streamlit.app/)
 
-## 📋 Aperçu
+##  Aperçu
 
 Cette application utilise des algorithmes d'apprentissage automatique pour :
 - **Prédire la consommation énergétique** en fonction des conditions météorologiques
@@ -13,26 +13,26 @@ Cette application utilise des algorithmes d'apprentissage automatique pour :
 - **Analyser les données historiques** avec des visualisations interactives
 - **Intégrer des données météorologiques en temps réel** via l'API Open-Meteo
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
-### 🔍 Prédiction Intelligente
+###  Prédiction Intelligente
 - **Segmentation par profil** : Low, Medium, High consumption
 - **Algorithme KNN** pour la prédiction de consommation
 - **Extra Trees Regressor** pour la recommandation de température
 - **Données météo en temps réel** ou saisie manuelle
 
-### 📊 Visualisations Avancées
+###  Visualisations Avancées
 - Graphiques interactifs avec **Plotly**
 - Analyses statistiques détaillées
 - Évolution temporelle des consommations
 - Distribution par segments de confort
 
-### 🌤️ Intégration Météo
+###  Intégration Météo
 - API Open-Meteo pour les données en temps réel
 - Température extérieure et ensoleillement
 - Prévisions automatiques pour votre localisation
 
-## 🛠️ Technologies Utilisées
+##  Technologies Utilisées
 
 - **[Streamlit](https://streamlit.io)** - Framework web pour applications Python
 - **scikit-learn** - Algorithmes d'apprentissage automatique
@@ -41,7 +41,7 @@ Cette application utilise des algorithmes d'apprentissage automatique pour :
 - **Requests** - Intégration API météo
 - **Pillow** - Traitement d'images
 
-## 📖 Guide d'Utilisation
+##  Guide d'Utilisation
 
 ### 1. **Sélection des Données Météo**
 - Choisissez entre l'API météo automatique ou la saisie manuelle
@@ -57,7 +57,7 @@ Cette application utilise des algorithmes d'apprentissage automatique pour :
 - **Température recommandée** : Consigne optimale en °C
 - **Visualisations** : Graphiques détaillés et analyses
 
-## 🔧 Architecture du Projet
+##  Architecture du Projet
 
 ```
 Projet_SMART/
@@ -69,7 +69,7 @@ Projet_SMART/
 └── README.md                  # Documentation
 ```
 
-## 🧠 Modèles d'IA Utilisés
+##  Modèles d'IA Utilisés
 
 ### 1. **K-Nearest Neighbors (KNN)**
 - Prédiction de consommation par similarité
@@ -81,7 +81,7 @@ Projet_SMART/
 - Ensemble d'arbres de décision
 - Features : météo + consommation + jour
 
-## 📊 Données et Features
+##  Données et Features
 
 ### Variables d'Entrée
 - **Température extérieure** (°C)
@@ -93,7 +93,7 @@ Projet_SMART/
 - **Consommation énergétique** (kWh)
 - **Température intérieure recommandée** (°C)
 
-## 🌐 API Météo
+##  API Météo
 
 L'application utilise l'[API Open-Meteo](https://open-meteo.com/) pour récupérer :
 - Température actuelle
@@ -102,11 +102,11 @@ L'application utilise l'[API Open-Meteo](https://open-meteo.com/) pour récupér
 
 Coordonnées par défaut : Nice, France (43.7°N, 7.25°E)
 
-## 🔒 Licence
+##  Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## 📞 Support
+##  Support
 
 Pour toute question ou problème :
 - Ouvrez une [issue](https://github.com/Fatimouden/Projet_SMART/issues)
