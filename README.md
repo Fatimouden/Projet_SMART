@@ -65,8 +65,6 @@ Projet_SMART/
 ├── requirements.txt             # Dépendances Python
 ├── df_daily.pickle             # Données d'entraînement
 ├── Centrale Med.png            # Logo
-├── .streamlit/
-│   └── config.toml            # Configuration thème
 ├── LICENSE                     # Licence MIT
 └── README.md                  # Documentation
 ```
