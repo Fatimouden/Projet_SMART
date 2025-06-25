@@ -19,15 +19,19 @@ st.set_page_config(page_title="Assistant Confort", layout="centered")
 st.markdown("""
     <style>
         .stApp {
-            background-color: #f5f7fa;
-            background-image: linear-gradient(to bottom right, #f5f7fa, #e0ecf8);
+            background-color: #f5f7fa !important;
+            background-image: linear-gradient(to bottom right, #f5f7fa, #e0ecf8) !important;
+            color: #262730 !important;
+        }
+        .stApp * {
+            color: #262730 !important;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #1f4e79 !important;
         }
         .element-container img {
             display: block;
             margin: 0 auto;
-        }
-        h1 {
-            color: #1f4e79;
         }
     </style>
 """, unsafe_allow_html=True)
