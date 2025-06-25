@@ -1,10 +1,9 @@
-streamlit 
-pandas 
-numpy 
-datetime
+streamlit
+pandas
+numpy
 requests
-matplotlib 
-seaborn 
+matplotlib
+seaborn
 plotly
-pickle
-sklearn
+scikit-learn
+Pillow
